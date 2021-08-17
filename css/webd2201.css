@@ -1,0 +1,192 @@
+/*
+Author: Braydon Duprey 
+Filename: webd2201.css
+Date: 3 June 2021
+Description: This is the css file used on my website
+*/
+
+body{
+background-color:#ebffff;
+font-family: Helvetica, Arial, sans-serif;
+color: black;
+}
+
+th{
+font-family: Verdana;
+font-weight: bolder;
+border: 1px solid;
+}
+
+/* unvisited */
+a:link{
+color: rgb(135, 185, 243);
+}
+/* visited */
+a:visited{
+color: cornflowerblue;
+}
+/* mouse over */
+a:hover{
+color: lightslategrey;
+}
+/* selected */
+a:active{
+color: mediumorchid;
+}
+
+h1{
+font-family: Verdana,Tahoma, sans-serif;
+font-weight: bolder;
+}
+
+table{
+border: 1px solid salmon;
+color: darksalmon;
+}
+
+hr
+{
+    border: 1px dotted salmon;
+}
+
+ol{
+list-style-type: decimal-leading-zero;
+}
+li{
+list-style-position: inside;
+}
+
+sub{
+vertical-align: sub;
+font-size: x-small;
+}
+
+sup{
+vertical-align: super;
+font-size: x-small;
+}
+
+i{
+font-style: italic;
+font-family:'Arial Narrow Bold';
+}
+
+p{
+font-size: larger;
+}
+#container
+{
+	margin: 0 auto;
+	width: 1200px;
+	background: #fff;
+}
+
+#header
+{
+	background: #ccc;
+	padding: 20px;
+}
+
+#header h1
+ { 
+	margin: 0;
+	display: inline;
+}
+
+#header img
+{ 
+	vertical-align: middle;
+	width: 150px;
+}
+
+#sites
+{
+	display: inline-block;
+	/*float: left;*/
+	width: 100%;
+	/*width: 1200px;*/
+	background: #333;
+}
+span.code
+{
+	font-family: Consolas;
+	font-size: 0.9em;
+}
+
+#sites ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#sites ul li
+{
+	list-style-type: none;
+	display: inline-block;
+}
+
+#sites li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#sites li a:hover { 
+	background-color: #ccc; 
+	color: #000;
+}
+
+#navigation
+{
+	display: inline-block;
+	vertical-align: top;
+	/*clear: left;*/
+	/*float: left;*/
+	/*display: inline;*/
+	width: 280px;
+	padding: 10px 0;
+	margin: 0 20px 0 0;
+	text-align: left;
+}
+
+#navigation h3 { margin: 0; }
+
+#content-container
+{
+	/*float: left;*/
+	/*width: 1200px;*/
+	background-color: #fff;
+	background-image: url(../images/styles/background.png);
+	/* go up a directory, and then work down into images/styles directory */
+	background-repeat: repeat-y;
+	
+}
+
+#content
+{
+	display: inline-block;
+	/*float: right;*/
+	width: 860px;
+	padding: 20px 0;
+	margin: 0 0 0 30px;
+	/*display: inline;*/
+}
+
+#content h2 { margin: 0; }
+
+#footer
+{
+	clear: both;
+	background: #ccc;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+}
+
+#footer img{
+	vertical-align: middle;
+}
